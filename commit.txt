@@ -2,3 +2,4 @@
 2. Test Commit for SSH key.
 3. Sample code of using OpenAI Models
 4. Demo code for chat model using OpenAI.
+5. Demo code for chat model using claude and gemini.
