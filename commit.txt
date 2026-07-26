@@ -5,3 +5,5 @@
 5. Demo code for chat model using claude and gemini.
 6. Demo code to use Open Source Models using HF inference api.
 7. Demo code to use and run Open Source Models locally.
+8. Demo code for using Embedding Models.
+9. Application to find similarity score from a text and a query.
