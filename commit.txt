@@ -3,3 +3,4 @@
 3. Sample code of using OpenAI Models
 4. Demo code for chat model using OpenAI.
 5. Demo code for chat model using claude and gemini.
+6. Demo code to use Open Source Models using HF inference api.
