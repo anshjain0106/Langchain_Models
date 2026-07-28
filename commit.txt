@@ -10,3 +10,4 @@
 10. Documents parser application.
 11. Chatbot with storing history.
 12. Understanding messages in Langchain and using ChatPromptTemplate in chatbot.
+13. Exploring ChatPromptTemplate and MessagePlaceholder.
