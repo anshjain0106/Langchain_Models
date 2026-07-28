@@ -9,3 +9,4 @@
 9. Application to find similarity score from a text and a query.
 10. Documents parser application.
 11. Chatbot with storing history.
+12. Understanding messages in Langchain and using ChatPromptTemplate in chatbot.
