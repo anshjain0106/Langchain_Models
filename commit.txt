@@ -7,4 +7,5 @@
 7. Demo code to use and run Open Source Models locally.
 8. Demo code for using Embedding Models.
 9. Application to find similarity score from a text and a query.
-10. Documents parser application
+10. Documents parser application.
+11. Chatbot with storing history.
