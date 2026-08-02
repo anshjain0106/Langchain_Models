@@ -11,3 +11,4 @@
 11. Chatbot with storing history.
 12. Understanding messages in Langchain and using ChatPromptTemplate in chatbot.
 13. Exploring ChatPromptTemplate and MessagePlaceholder.
+14. Intro about Structured output.
