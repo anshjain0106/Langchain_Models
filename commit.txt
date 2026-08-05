@@ -13,3 +13,4 @@
 13. Exploring ChatPromptTemplate and MessagePlaceholder.
 14. Intro about Structured output.
 15. parsing Structured output using Typed Dictionary.
+16. Exploring Pydantic using a demo code.
