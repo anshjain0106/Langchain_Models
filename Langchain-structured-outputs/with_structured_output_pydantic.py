@@ -40,3 +40,4 @@ Reviewer: Ansh Jain
 print(result)
 print(result.name)
 print(result.sentiment)
+print(result.pros)

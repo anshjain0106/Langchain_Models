@@ -15,4 +15,4 @@
 15. parsing Structured output using Typed Dictionary.
 16. Exploring Pydantic using a demo code.
 17. Structured Output with Pydantic.
-18. Structured Output with JSON Schema.
+18. Structured Output with JSON Schemas.
