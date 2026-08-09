@@ -16,3 +16,4 @@
 16. Exploring Pydantic using a demo code.
 17. Structured Output with Pydantic.
 18. Structured Output with JSON Schemas.
+19. Working with Unstructured Output using StrOutputParser.
