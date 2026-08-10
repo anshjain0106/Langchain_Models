@@ -19,3 +19,4 @@
 19. Working with Unstructured Output using StrOutputParser.
 20. Working with Unstructured Output using JsonOutputParser.
 21. Working with Unstructured Output using structuredOutputParser.
+22. Working with Unstructured Output using PydanticOutputParser.
