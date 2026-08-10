@@ -18,3 +18,4 @@
 18. Structured Output with JSON Schemas.
 19. Working with Unstructured Output using StrOutputParser.
 20. Working with Unstructured Output using JsonOutputParser.
+21. Working with Unstructured Output using structuredOutputParser.
