@@ -22,3 +22,4 @@
 22. Working with Unstructured Output using PydanticOutputParser.
 23. Chains using Simple Chain.
 24. Chains using Parallel/Router Chain.
+25. Chains using Conditional Chain.
