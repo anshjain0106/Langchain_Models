@@ -20,3 +20,4 @@
 20. Working with Unstructured Output using JsonOutputParser.
 21. Working with Unstructured Output using structuredOutputParser.
 22. Working with Unstructured Output using PydanticOutputParser.
+23. Chains using Simple Chain.
