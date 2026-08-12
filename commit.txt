@@ -26,3 +26,4 @@
 26. Exploring Runnable Sequence.
 27. Exploring Runnable Parallel.
 28. Exploring Runnable PassThrough.
+29. Exploring Runnable Lambda.
