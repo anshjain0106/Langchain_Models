@@ -29,3 +29,4 @@
 29. Exploring Runnable Lambda.
 30. Exploring Runnable Branch.
 31. Starting with Document Loaders.
+32. Exploring Text Loaders.
