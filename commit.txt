@@ -31,3 +31,4 @@
 31. Starting with Document Loaders.
 32. Exploring Text Loaders.
 33. Exploring PyPDF Loaders.
+34. Exploring Directory Loaders and lazy loading.
