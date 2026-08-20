@@ -34,4 +34,4 @@
 34. Exploring Directory Loaders and lazy loading.
 35. Exploring WebBase Loader.
 36. Exploring CSV Loader.
-37. Exploring Length Based Text Splitters.
+37. Exploring Length Based Text Splitter.
