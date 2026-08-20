@@ -36,3 +36,4 @@
 36. Exploring CSV Loader.
 37. Exploring Length Based Text Splitter.
 38. Exploring Text Structure Based Splitter.
+39. Document Text Structure Based Splitter.
