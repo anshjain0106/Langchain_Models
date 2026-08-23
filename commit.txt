@@ -39,3 +39,4 @@
 39. Exploring Document Text Structure Based Splitter.
 40. Exploring Semantic Meaning Based Splitter.
 41. Starting with Vector Stores.
+42. Exploring Vector Stores using ChromaDB.

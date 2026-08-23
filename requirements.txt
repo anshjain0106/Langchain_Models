@@ -32,5 +32,10 @@ python-dotenv
 numpy
 scikit-learn
 
+# Vector DB
+chromadb
+tiktoken
+langchain-chroma
+
 # Miscellanous
 ps4
