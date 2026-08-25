@@ -42,3 +42,4 @@
 42. Exploring Vector Stores using ChromaDB.
 43. Starting with retrievers and exploring Wikipedia retrievers.
 44. Exploring Vector Store Retrievers.
+45. Exploring Maximal Marginal Relevance (MMR)

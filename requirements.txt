@@ -40,3 +40,5 @@ langchain-chroma
 # Miscellanous
 ps4
 wikipedia
+faiss-cpu
+faiss-gpu
