@@ -41,3 +41,4 @@
 41. Starting with Vector Stores.
 42. Exploring Vector Stores using ChromaDB.
 43. Starting with retrievers and exploring Wikipedia retrievers.
+44. Exploring Vector Store Retrievers.
