@@ -39,3 +39,4 @@ langchain-chroma
 
 # Miscellanous
 ps4
+wikipedia
