@@ -4,6 +4,8 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGener
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import PromptTemplate
+from langchain_core.runnables import RunnableParallel, RunnablePassthrough, RunnableLambda
+from langchain_core.output_parsers import StrOutputParser
 
 # Step 1a - Indexing (Document Ingestion)
 video_id = "Gfr50f6ZBvo" # only the ID, not full URL
@@ -34,7 +36,7 @@ vector_store =  FAISS.from_documents(chunks, embeddings)
 retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 4})
 # print(retriever)
 # Query
-retriever.invoke('What is Deepmind')
+# retriever.invoke('What is Deepmind')
 # print(retriever.invoke('What is Deepmind'))
 
 # Step - 3 Augmentation
@@ -53,19 +55,38 @@ prompt = PromptTemplate(
 )
 
 question          = "is the topic of nuclear fusion discussed in this video? if yes then what was discussed"
-retrieved_docs    = retriever.invoke(question)
+# retrieved_docs    = retriever.invoke(question)
 # print(retrieved_docs)
 
 # Joining the page content of document
-context_text = "\n\n".join(doc.page_content for doc in retrieved_docs)
+# context_text = "\n\n".join(doc.page_content for doc in retrieved_docs)
 # print(context_text)
 
 # Final Prompt
-final_prompt = prompt.invoke({"context": context_text, "question": question})
+# final_prompt = prompt.invoke({"context": context_text, "question": question})
 # print(final_prompt)
 
 # Step 4 - Generation
-answer = llm.invoke(final_prompt)
-content = answer.content
-text = content[0]["text"] if isinstance(content, list) else content
-print(text)
+# answer = llm.invoke(final_prompt)
+# content = answer.content
+# text = content[0]["text"] if isinstance(content, list) else content
+# print(text)
+
+# Building a chain
+
+def format_docs(retrieved_docs):
+  context_text = "\n\n".join(doc.page_content for doc in retrieved_docs)
+  return context_text
+
+parallel_chain = RunnableParallel({
+    'context': retriever | RunnableLambda(format_docs),
+    'question': RunnablePassthrough()
+})
+
+parallel_chain.invoke('who is Demis')
+
+parser = StrOutputParser()
+
+main_chain = parallel_chain | prompt | llm | parser
+
+print(main_chain.invoke('Can you summarize the video'))
