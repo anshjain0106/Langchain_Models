@@ -63,3 +63,9 @@ context_text = "\n\n".join(doc.page_content for doc in retrieved_docs)
 # Final Prompt
 final_prompt = prompt.invoke({"context": context_text, "question": question})
 # print(final_prompt)
+
+# Step 4 - Generation
+answer = llm.invoke(final_prompt)
+content = answer.content
+text = content[0]["text"] if isinstance(content, list) else content
+print(text)
