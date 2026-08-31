@@ -29,3 +29,10 @@ chunks = splitter.create_documents([transcript])
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 vector_store =  FAISS.from_documents(chunks, embeddings)
 # print(vector_store.index_to_docstore_id)
+
+# Step 2 - Retrieval
+retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 4})
+# print(retriever)
+# Query
+retriever.invoke('What is Deepmind')
+# print(retriever.invoke('What is Deepmind'))
