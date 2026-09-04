@@ -42,3 +42,5 @@ ps4
 wikipedia
 faiss-cpu
 faiss-gpu
+duckduckgo-search
+langchain_experimental
