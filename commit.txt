@@ -56,3 +56,4 @@
 56. Exploring Built-in tools in Langchain.
 56. Starting with Custom tools in Langchain.
 57. Exploring Custom Tools in Langchain using tool decorator.
+57. Exploring Custom Tools in Langchain using Structured Tools.
