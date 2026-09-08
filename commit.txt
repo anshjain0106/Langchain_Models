@@ -59,3 +59,4 @@
 58. Exploring Custom Tools in Langchain using Structured Tools.
 59. Exploring Custom Tools in Langchain using BaseTool class.
 60. Exploring Tool calling, Tool Binding and Tool Execution in Langchain.
+61. Creating a sample currency conversion tool.
