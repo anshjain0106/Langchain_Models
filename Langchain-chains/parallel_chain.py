@@ -9,7 +9,7 @@ load_dotenv()
 
 model1 = ChatGoogleGenerativeAI(model='gemini-3.6-flash')
 
-model2 = ChatGroq(model="llama-3.3-70b-versatile")
+model2 = ChatGroq(model="openai/gpt-oss-120b")
 
 prompt1 = PromptTemplate(
     template = 'Generate short and simple notes from the following text \n {text}',

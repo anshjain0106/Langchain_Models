@@ -6,6 +6,9 @@ pypdf
 langchain-text-splitters
 langchain-experimental
 
+# Langgraph
+langgraph
+
 # OpenAI Integration
 langchain-openai
 openai
@@ -45,3 +48,5 @@ faiss-gpu
 duckduckgo-search
 langchain_experimental
 requests
+ipywidgets
+jupyter

@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning, module="langchain
 
 load_dotenv()
 
-model = ChatGroq(model="llama-3.3-70b-versatile")
+model = ChatGroq(model="openai/gpt-oss-120b")
 
 prompt = PromptTemplate(
     template='Write a summary about following poem:- \n {poem}',

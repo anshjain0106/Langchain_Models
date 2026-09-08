@@ -21,7 +21,7 @@ parser = StrOutputParser()
 
 model1 = ChatGoogleGenerativeAI(model='gemini-3.6-flash')
 
-model2 = ChatGroq(model="llama-3.3-70b-versatile")
+model2 = ChatGroq(model="openai/gpt-oss-120b")
 
 parallel_chain = RunnableParallel({
     'tweet': RunnableSequence(prompt1, model1, parser),
