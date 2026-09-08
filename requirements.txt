@@ -44,3 +44,4 @@ faiss-cpu
 faiss-gpu
 duckduckgo-search
 langchain_experimental
+requests
