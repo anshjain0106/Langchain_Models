@@ -9,6 +9,9 @@ langchain-experimental
 # Langgraph
 langgraph
 
+# Ollama
+ollama
+
 # OpenAI Integration
 langchain-openai
 openai

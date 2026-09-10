@@ -61,3 +61,4 @@
 60. Exploring Tool calling, Tool Binding and Tool Execution in Langchain.
 61. Creating a sample currency conversion tool.
 62. Building an AI Agent in Langchain.
+63. Starting with Ollama.
