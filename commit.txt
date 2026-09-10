@@ -63,3 +63,4 @@
 62. Building an AI Agent in Langchain.
 63. Starting with Ollama.
 64. Using Ollama library.
+65. Creating a specific usecase model using modelfile.
