@@ -11,6 +11,7 @@ langgraph
 
 # Ollama
 ollama
+langchain-ollama
 
 # OpenAI Integration
 langchain-openai

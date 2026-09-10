@@ -64,3 +64,4 @@
 63. Starting with Ollama.
 64. Using Ollama library.
 65. Creating a specific usecase model using modelfile.
+66. Exploring Ollama using Langchain.
